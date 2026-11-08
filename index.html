@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUS ADM 350 - Chapter 10</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6fa;
+      color: #233044;
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .slide {
+      background: white;
+      max-width: 850px;
+      margin: auto;
+      padding: 50px 35px;
+      border-radius: 18px;
+      box-shadow: 0 8px 30px #00000012;
+    }
+    h1 { color: #173b68; }
+    h2 { color: #3778a8; }
+    .topic {
+      background: #edf3f9;
+      margin: 15px auto;
+      padding: 18px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+    button {
+      background: #173b68;
+      color: white;
+      border: none;
+      padding: 14px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover { background: #28649a; }
+    #lesson { display: none; }
+  </style>
+</head>
+<body>
+  <div class="slide">
+    <h3>UNIVERSITY OF WISCONSIN-MILWAUKEE</h3>
+    <h1>BUS ADM 350</h1>
+    <h2>Chapter 10</h2>
+    <h1>Some Lessons from Capital Market History</h1>
+    <p>TA Problem-Solving Session</p>
+
+    <div class="topic">Problem 21: Stock Returns</div>
+    <div class="topic">Problem 20: Arithmetic and Geometric Returns</div>
+    <div class="topic">Problem 19: Returns and Standard Deviation</div>
+    <div class="topic">Problem 23: Bond Returns and Inflation</div>
+
+    <button onclick="startLesson()">Start Learning</button>
+
+    <div id="lesson">
+      <h2>Welcome to Chapter 10!</h2>
+      <p>
+        In this session, we will learn how to calculate
+        investment returns, understand risk, and
+        interpret real returns after inflation.
+      </p>
+      <p>Let's begin with Problem 21.</p>
+    </div>
+  </div>
+
+  <script>
+    function startLesson() {
+      document.getElementById("lesson").style.display = "block";
+    }
+  </script>
+</body>
+</html>
